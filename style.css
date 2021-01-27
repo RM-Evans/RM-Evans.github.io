@@ -42,6 +42,8 @@ header nav ul {
     /* padding-top: 60px; */
     text-shadow: -8px 0 0 rgb(255, 255, 255, 0.25);
     position: relative;
+    display: flex;
+    justify-content: center;
 }
 
 /* about me section start*/
@@ -119,3 +121,35 @@ header nav ul {
     padding-left: 30px;
 }
 
+
+/* contact me */
+
+.contact-me {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 40px;
+}
+
+.how-to-contact {
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+
+}
+
+.contact-info {
+    font-size: 16px;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-info p,
+.contact-info a {
+    display: flex;
+    justify-content: center;
+}
