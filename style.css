@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: auto 0;
+}
+
 header {
     padding: 0;
     margin: 0;
@@ -163,20 +167,38 @@ header nav ul {
 /* featured projects end */
 /* more projects */
 
-#more-projects-img {
-    width: 45%;
-}
-
 .more-projects {
     display: flex;
-    
-    justify-content: space-between;
     flex-wrap: wrap;
+    padding: 50px 0 80px 0 ;
+    justify-content: space-evenly;
 }
+/* .column-one {
+    display: flex;
+
+}
+
+.column-two {
+    display: flex;
+} */
 
 .project-sub {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+#more-projects-img {
+    width: 350px;
+    
+    outline-style: solid;
+    outline-width: 2px;
+    opacity: 0.3;
+    display: flex;
 }
 
 /* contact me */
@@ -221,7 +243,15 @@ a:link {
 
   a:visited,
   a:hover {
-      color: rgba(233, 245, 255, 0.5);
+  color: rgba(233, 245, 255, 0.5);
   }
 
 /* link properties end */
+
+
+@media and (max-width 1024px) {
+
+}
+
+
+/* TODO: media queries and fix flexbox layout for placeholders */
