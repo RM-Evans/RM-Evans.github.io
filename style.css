@@ -1,15 +1,17 @@
 * {
     box-sizing: border-box;
 }
+
 header {
-    margin-top: 20px;
+    padding: 0;
+    margin: 0;
     /* display: flex;
     justify-content: center; */
     background-color: rgba(20, 61, 97, 1);
     height: 180px;
-    min-width: 100%;
-    justify-content: stretch;
+    /* min-width: 100%; */
 }
+
 
 /*   position: -webkit-sticky;
   position: sticky; */
@@ -44,6 +46,7 @@ header nav ul {
     position: relative;
     display: flex;
     justify-content: center;
+
 }
 
 /* about me section start*/
@@ -56,9 +59,9 @@ header nav ul {
 
 .bio-text {
     /* outline-style: solid; */
-    padding: 50px;
-    margin-left: 20px;
-    margin-right: 50px;
+    padding: 50px 10%;
+    /* padding-left: 80px;
+    padding-right: 50px; */
     /* margin: auto auto 20px auto; */
     font-size: 18px;
     font-weight: bold ;
@@ -83,7 +86,7 @@ header nav ul {
     justify-content: center;
     flex-wrap: wrap;
     background-color: rgba(233, 245, 255, 0.9);
-
+    
 }
 
 .github {
@@ -121,15 +124,71 @@ header nav ul {
     padding-left: 30px;
 }
 
+/* featured projects*/
+
+.projects {
+    margin: 70px 20px 30px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+/* .featured-project, */
+.featured-project {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-family:'Courier New', Courier, monospace
+}
+.featured-project p {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline rgba(20, 61, 97, .8);
+}
+#featured-project {
+    display: flex;
+    justify-content: center;
+    /* padding-left: 10%; */
+    outline-style:groove ;
+    outline-width: 2px;
+    outline-color: rgba(20, 61, 97, .4);
+    width: 100%;
+    box-shadow: -2px 7px 10px rgba(0, 0, 0, 0.4);
+}
+
+/* featured projects end */
+/* more projects */
+
+#more-projects-img {
+    width: 45%;
+}
+
+.more-projects {
+    display: flex;
+    
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.project-sub {
+    display: flex;
+    flex-direction: column;
+}
 
 /* contact me */
 
 .contact-me {
+    background-color:rgba(20, 61, 97, 1);
+    color: rgba(233, 245, 255, 0.9);
     font-family: 'Courier New', Courier, monospace;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding-top: 40px;
+    padding: 40px 0;
 }
 
 .how-to-contact {
@@ -153,3 +212,16 @@ header nav ul {
     display: flex;
     justify-content: center;
 }
+
+/* link properties */
+
+a:link {
+    color: white;
+  }
+
+  a:visited,
+  a:hover {
+      color: rgba(233, 245, 255, 0.5);
+  }
+
+/* link properties end */
