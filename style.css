@@ -1,6 +1,14 @@
 * {
     box-sizing: border-box;
 }
+html {
+        /* width: 100%; */
+    /* margin: 0; */
+    /* display: grid; */
+    min-width: 550px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
 
 body {
     margin: auto 0;
@@ -182,19 +190,37 @@ header nav ul {
     display: flex;
 } */
 
-.project-sub {
+.more-projects .project-sub {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: space-between; */
     align-items: center;
-    
+    width: 50%;
+    padding: 5px 2px;
 }
+
+/* can add borders to debug */
+@media screen and (max-width: 1023px){
+    .more-projects .project-sub {
+        width: 100%;
+        /* display: flex; */
+        padding: 30px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .more-projects .project-sub {
+        /* width: 45%; */
+    }
+} 
+
 
 
 #more-projects-img {
-    width: 350px;
-    
+    max-width: 100%;
+    padding: 5px;
+    /* border: solid; */
     outline-style: solid;
     outline-width: 2px;
     opacity: 0.3;
@@ -249,9 +275,11 @@ a:link {
 /* link properties end */
 
 
-@media and (max-width 1024px) {
+@media screen and(max-width: 1024px) {
+
 
 }
 
+/* @media (max-width ) */
 
 /* TODO: media queries and fix flexbox layout for placeholders */
