@@ -218,11 +218,11 @@ header nav ul {
 
 
 #more-projects-img {
-    max-width: 100%;
+    max-width: 90%;
     padding: 5px;
     /* border: solid; */
-    outline-style: solid;
-    outline-width: 2px;
+    /* outline-style: solid; */
+    /* outline-width: 2px; */
     opacity: 0.3;
     display: flex;
 }
@@ -240,7 +240,8 @@ header nav ul {
 }
 
 .how-to-contact {
-    font-size: 16px;
+    color: rgba(233, 245, 255, 1);
+    font-size: 18px;
     font-weight: bold;
     display: flex;
     justify-content: center;
