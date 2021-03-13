@@ -30,6 +30,7 @@ header {
 header nav {
     display: flex;
     justify-content: center;
+    margin-bottom: 45px;
 
 }
 header nav ul {
@@ -49,15 +50,17 @@ header nav ul {
 }
 
 .my-name h1 {
+    display: flex;
+    justify-content: center;
     font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
+    font-weight: bold;
     color: rgba(233, 245, 255, 0.9);
     padding-left: 35px;
     /* padding-top: 60px; */
     text-shadow: -8px 0 0 rgb(255, 255, 255, 0.25);
     position: relative;
-    display: flex;
-    justify-content: center;
+
 
 }
 
@@ -84,9 +87,9 @@ header nav ul {
     /* margin-left: 50px; */
     width: 420px;
     max-width: 100%;
-    outline-style: double;
-    outline-width: 7px;
-    outline-color: rgba(20, 61, 97, .8);
+    border-radius: 15px;
+    box-shadow: -3px 4px 5px rgba(0, 0, 0, 0.4);
+
 }
 
 /* about me section end */
@@ -169,7 +172,8 @@ header nav ul {
     outline-width: 2px;
     outline-color: rgba(20, 61, 97, .4);
     width: 100%;
-    box-shadow: -2px 7px 10px rgba(0, 0, 0, 0.4);
+    box-shadow: -3px 4px 5px rgba(0, 0, 0, 0.4);
+    
 }
 
 /* featured projects end */
@@ -180,6 +184,7 @@ header nav ul {
     flex-wrap: wrap;
     padding: 50px 0 80px 0 ;
     justify-content: space-evenly;
+
 }
 /* .column-one {
     display: flex;
@@ -225,6 +230,8 @@ header nav ul {
     /* outline-width: 2px; */
     opacity: 0.3;
     display: flex;
+    border-radius: 15px;
+    box-shadow: -3px 4px 5px rgba(0, 0, 0, 0.4);
 }
 
 /* contact me */
